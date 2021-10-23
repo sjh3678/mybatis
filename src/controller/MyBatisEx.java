@@ -24,7 +24,7 @@ public class MyBatisEx {
 		sqlSession = sqlSessionFactory.openSession(true); // 성공하면 자동 commit
 		
 		//DB 접속 및 SQL수행객체 생성하기
-		sqlSession = sqlSessionFactory.openSession();
+//		sqlSession = sqlSessionFactory.openSession();
 		
 		//-----------------------------------------------------
 		
